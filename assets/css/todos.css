@@ -14,6 +14,9 @@ h1 {
 	text-transform: uppercase;
 	font-size: 24px;
 	font-weight: 400;
+	box-shadow: inset 3px 3px 15px -5px rgba(255,255,255,1);
+	box-shadow: -webkit-box-shadow: inset 3px 3px 15px -5px rgba(255,255,255,1);
+				-moz-box-shadow: inset 3px 3px 15px -5px rgba(255,255,255,1);
 }
 
 ul {
@@ -106,8 +109,14 @@ input:focus {
 	opacity: 0;
 }
 
+i.fa {
+	position: relative;
+	opacity: 0.8;
+}
 
-
-
+i.selected {
+	opacity: 1;
+	transition: 0.3s;
+}
 
 
