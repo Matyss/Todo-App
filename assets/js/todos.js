@@ -26,7 +26,8 @@ $("input[type=text]").keypress(function(event) {
 	}
 });
 
-//click pencil icon to show input form
+//click pencil icon to show input form and change pencil opacity
 $(".fa-pencil").click(function() {
+	$(".fa-pencil").toggleClass("selected");
 	$("input[type=text]").fadeToggle();
 });
